@@ -27,5 +27,16 @@ Durante o desenvolvimento deste portfólio, o maior desafio foi a implementaçã
 - **Solução:** Utilizei técnicas de manipulação de DOM eficiente e variáveis CSS para garantir que a troca de temas (Light/Dark) fosse fluida.
 - **Aprendizado:** Reforcei conhecimentos sobre acessibilidade (WCAG) e a importância de um código semântico para SEO.
 
+## 📊 Performance e Qualidade Técnica (Lighthouse)
+
+O projeto foi auditado utilizando a ferramenta **Google Lighthouse**, alcançando pontuações de excelência em todos os critérios, o que garante uma navegação fluida, rápida e acessível.
+
+- **Desempenho:** 99/100
+- **Acessibilidade:** 95/100
+- **Práticas Recomendadas:** 100/100
+- **SEO:** 91/100
+
+> *Valores obtidos em ambiente de produção (GitHub Pages).*
+
 ---
 Desenvolvido por **Sthefany Evangelista Matias**
