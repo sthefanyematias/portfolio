@@ -23,10 +23,4 @@ O portfólio foi construído utilizando conceitos avançados de UI/UX para refle
 * `script.js`: Lógica de busca, manipulação do DOM e interatividade.
 
 ---
-## 🤝 Contato
-Sinta-se à vontade para explorar os meus projetos e entrar em contacto para colaborações ou oportunidades profissionais.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sthefanyematias/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sthefanyematias)
-
-⭐ Desenvolvido por **Sthefany Evangelista Matias**
+Desenvolvido por **Sthefany Evangelista Matias**
