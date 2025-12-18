@@ -22,5 +22,10 @@ O portfólio foi construído utilizando conceitos avançados de UI/UX para refle
 * `style.css`: Estilização avançada, animações e gestão de temas.
 * `script.js`: Lógica de busca, manipulação do DOM e interatividade.
 
+## 🧠 Desafios e Aprendizados
+Durante o desenvolvimento deste portfólio, o maior desafio foi a implementação do sistema de busca em tempo real conciliado com a performance das animações. 
+- **Solução:** Utilizei técnicas de manipulação de DOM eficiente e variáveis CSS para garantir que a troca de temas (Light/Dark) fosse fluida.
+- **Aprendizado:** Reforcei conhecimentos sobre acessibilidade (WCAG) e a importância de um código semântico para SEO.
+
 ---
 Desenvolvido por **Sthefany Evangelista Matias**
