@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Sthefany Evangelista Matias</title>
+    <link rel="icon" href="assets/icon/folder.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-bar">
+        <h1>Portfólio</h1>
+        <div class="header-right">
+            <div class="search-container" role="search">
+                <input type="text" id="searchInput" placeholder="Buscar..." aria-label="Buscar no site">
+                <div id="searchSuggestions" class="suggestions-box" role="listbox"></div>
+            </div>
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu">☰</button>
+        </div>
+    </header>
+
+    <nav class="menu" id="menu" aria-label="Menu principal">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Alternar tema claro e escuro">
+            <span class="toggle-circle"></span>
+        </button>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h3>Olá! eu sou a</h3>
+            <h1>Sthefany Evangelista Matias</h1>
+            <h4>Estudante de Análise e Desenvolvimento de Sistemas</h4>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary active">Projetos</a>
+                <a href="#contact" class="btn btn-outline">Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider" id="about" aria-hidden="true"></div>
+
+    <main>
+        <div class="about-wrapper">
+            <section id="about" class="about">
+                <h2 class="reveal">Sobre mim</h2>
+                <div class="about-content reveal">
+                    <p>Sou apaixonada por <strong>tecnologia</strong> e movida pela curiosidade de entender como as
+                        coisas funcionam.
+                        Gosto de transformar ideias em <strong>soluções práticas</strong>, unindo criatividade,
+                        organização e aprendizado contínuo.</p>
+
+                    <p>Tenho facilidade em aprender de forma <strong>autônoma</strong> e aprecio desafios que me
+                        permitam aprofundar
+                        conhecimentos, seja no desenvolvimento de sistemas, na lógica de programação ou na administração
+                        de ambientes de TI.</p>
+
+                    <p>Ao longo da minha formação, tive contato com <strong>desenvolvimento web</strong>, <strong>bancos
+                            de dados</strong> e administração de sistemas,
+                        buscando sempre resolver problemas de forma eficiente e estruturada.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <div class="section-divider-bottom" id="projects" aria-hidden="true"></div><br><br><br><br><br><br><br><br>
+
+    <main>
+        <section class="reveal" style="position: relative;">
+            <span class="section-number" aria-hidden="true"></span>
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="card">
+                    <div class="preview">
+                        <video src="assets/other/video-petshop.mp4" id="videoPetshop" autoplay muted loop playsinline
+                            class="video-preview" aria-label="Vídeo demonstrativo do projeto AuMigo e Cia"></video>
+                    </div>
+                    <span class="project-category">Projeto Acadêmico</span><br><br>
+                    <h3>AuMigo & Cia</h3>
+                    <p>E-commerce pet com foco em frontend, incluindo catálogo de produtos, carrinho de compras e
+                        persistência de dados.</p>
+                    <div class="actions">
+                        <span class="span">HTML • CSS • JS</span>
+                        <div class="button-group">
+                            <a href="https://github.com/sthefanyematias/PetShop" target="_blank" class="btn-repo"
+                                aria-label="Repositório do projeto AuMigo e Cia">Repositório</a>
+                            <a href="https://pet-shop-pi-ten.vercel.app" target="_blank" class="btn-deploy"
+                                aria-label="Deploy do projeto AuMigo e Cia">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="preview">
+                        <video src="assets/other/vedeo-gerenciador.mp4" id="videoEstoque" autoplay muted loop
+                            playsinline class="video-preview"
+                            aria-label="Vídeo demonstrativo do projeto Gerenciador de Estoque"></video>
+                    </div>
+                    <span class="project-category">Projeto Acadêmico</span><br><br>
+                    <h3>Gerenciador de Estoque</h3>
+                    <p id="gerenciador">Sistema de gerenciamento de estoque em Angular, com CRUD, autenticação e controle de acesso
+                        (RBAC).</p>
+                    <div class="actions">
+                        <span class="span">Angular • TS • JSON</span>
+                        <div class="button-group">
+                            <a href="https://github.com/sthefanyematias/GerenciadorDeEstoque" target="_blank"
+                                class="btn-repo"
+                                aria-label="Repositório do projeto Gerenciador de Estoque">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main><br><br><br><br><br><br><br><br>
+
+    <div class="section-divider" id="contact" aria-hidden="true"></div>
+
+    <main>
+        <section class="reveal">
+            <div class="container">
+                <h2>Vamos conversar?</h2>
+                <div class="contact-grid">
+                    <a href="https://linkedin.com/in/sthefanyematias/" target="_blank" class="contact-card"
+                        aria-label="Acessar meu LinkedIn">
+                        <div class="contact-info">
+                            <span>LinkedIn</span>
+                            <p>Conecte-se comigo</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a>
+
+                    <a href="https://github.com/sthefanyematias" target="_blank" class="contact-card"
+                        aria-label="Acessar meu GitHub">
+                        <div class="contact-info">
+                            <span>GitHub</span>
+                            <p>Veja meus códigos</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a>
+
+                    <a href="https://wa.me/5511988440378" target="_blank" class="contact-card"
+                        aria-label="Enviar mensagem via WhatsApp">
+                        <div class="contact-info">
+                            <span>WhatsApp</span>
+                            <p>Envie uma mensagem</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-card">
+            <div class="footer-bio">
+                <img src="assets/other/foto.png" alt="Foto de Sthefany" class="footer-avatar">
+                <div class="footer-text">
+                    <h3>Sthefany Evangelista Matias</h3>
+                    <p>São Paulo - SP, Brasil</p>
+                    <small>Técnica em Informática • Estudante de ADS</small>
+                </div>
+            </div>
+
+            <div class="footer-separator" aria-hidden="true"></div>
+
+            <div class="footer-skills">
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">Angular</span>
+                <span class="skill-pill">Node.js</span>
+                <span class="skill-pill">SQL Server</span>
+                <span class="skill-pill">MySQL</span>
+                <span class="skill-pill">MongoDB</span>
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">GitHub</span>
+            </div>
+        </div>
+
+        <p class="copyright">© <span id="year"></span> • Desenvolvido por Sthefany Evangelista Matias</p>
+    </footer>
+
+    <div class="nav-shortcuts" role="group" aria-label="Atalhos de navegação">
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="nav-btn"
+            aria-label="Voltar ao topo da página">
+            <span class="nav-text" aria-hidden="true">TOPO</span>
+            <span class="nav-arrow" aria-hidden="true">↑</span>
+        </button>
+
+        <button onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})" class="nav-btn"
+            aria-label="Ir para o final da página">
+            <span class="nav-text" aria-hidden="true">FIM</span>
+            <span class="nav-arrow" aria-hidden="true">↓</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
