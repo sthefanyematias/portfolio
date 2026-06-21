@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Sthefany Evangelista Matias</title>
+    <meta name="description"
+        content="Portfólio de Sthefany Evangelista Matias, desenvolvedora full-stack com experiência em Java, Spring Boot, Angular, Node.js e Docker.">
+    <meta property="og:title" content="Portfólio | Sthefany Evangelista Matias">
+    <meta property="og:description"
+        content="Desenvolvedora full-stack. Projetos em Java, Spring Boot, Angular, Node.js e Docker.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sthefanyematias.github.io/portfolio/">
+    <meta property="og:image" content="assets/other/foto.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfólio | Sthefany Evangelista Matias">
+    <meta name="twitter:description"
+        content="Desenvolvedora full-stack. Projetos em Java, Spring Boot, Angular, Node.js e Docker.">
+    <link rel="icon" href="assets/icon/folder.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-bar">
+        <h1>Portfólio</h1>
+        <div class="header-right">
+            <div class="search-container" role="search">
+                <input type="text" id="searchInput" placeholder="Buscar..." aria-label="Buscar no site">
+                <div id="searchSuggestions" class="suggestions-box" role="listbox"></div>
+            </div>
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="menu">☰</button>
+        </div>
+    </header>
+
+    <nav class="menu" id="menu" aria-label="Menu principal">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Alternar tema claro e escuro">
+            <span class="toggle-circle"></span>
+        </button>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h3>Olá, sou</h3>
+            <h1>Sthefany Evangelista Matias</h1>
+            <h4>Estudante de Análise e Desenvolvimento de Sistemas</h4>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary active">Projetos</a>
+                <a href="#contact" class="btn btn-outline">Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider" id="about" aria-hidden="true"></div>
+
+    <main>
+        <div class="about-wrapper">
+            <section id="about" class="about">
+                <h2 class="reveal">Sobre mim</h2>
+                <div class="about-content reveal">
+                    <p>Perfil <strong>autodidata</strong> com desenvolvimento técnico orientado à prática. Construo
+                        conhecimento por implementação, análise de fundamentos e evolução técnica contínua.</p>
+
+                    <p>Atuei em projetos que cobrem desde o frontend com manipulação de DOM e <strong>Web
+                            Storage</strong> até sistemas <strong>full-stack</strong> em produção com autenticação
+                        <strong>JWT</strong>, controle de acesso por perfis (<strong>RBAC</strong>), <strong>APIs
+                            REST</strong> e containerização com <strong>Docker</strong>.</p>
+
+                    <p>Direciono o desenvolvimento para <strong>arquitetura de soluções</strong> e entrega de valor com
+                        clareza e propósito. Valorizo processos bem estruturados, documentação técnica e ambientes
+                        colaborativos.</p>
+
+                    <p><strong>Stack:</strong> Java · Spring Boot · Node.js · Express.js · Angular · JavaScript ·
+                        TypeScript · SQL · MongoDB · Docker · Git</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="section-divider-bottom" id="projects" aria-hidden="true"></div><br><br><br><br><br><br><br><br>
+
+    <main>
+        <section class="reveal" style="position: relative;">
+            <h2>Projetos</h2>
+
+            <div class="carousel-container">
+                <div class="carousel-row">
+                    <button class="carousel-btn carousel-prev" aria-label="Projeto anterior">&#8592;</button>
+
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track">
+
+                            <div class="card">
+                                <div class="preview">
+                                    <video src="assets/other/video-petshop.mp4" id="videoPetshop" autoplay muted loop
+                                        playsinline class="video-preview"
+                                        aria-label="Vídeo demonstrativo do projeto AuMigo e Cia"></video>
+                                </div>
+                                <span class="project-category">Projeto Acadêmico</span>
+                                <h3>AuMigo & Cia</h3>
+                                <p>E-commerce frontend sem frameworks externos. Catálogo com filtragem por categoria,
+                                    autenticação de usuário e carrinho persistido via localStorage e sessionStorage.</p>
+                                <div class="card-tech">
+                                    <span class="tech-pill">HTML5</span>
+                                    <span class="tech-pill">CSS3</span>
+                                    <span class="tech-pill">Vanilla JS</span>
+                                    <span class="tech-pill">Web Storage API</span>
+                                </div>
+                                <div class="card-buttons">
+                                    <a href="https://github.com/sthefanyematias/petshop-aumigo" target="_blank"
+                                        class="btn-repo"
+                                        aria-label="Repositório do projeto AuMigo e Cia">Repositório</a>
+                                    <a href="https://petshop-aumigo.vercel.app/" target="_blank" class="btn-deploy"
+                                        aria-label="Deploy do projeto AuMigo e Cia">Deploy</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="preview">
+                                    <video src="assets/other/video-gerenciador.mp4" id="videoEstoque" autoplay muted
+                                        loop playsinline class="video-preview"
+                                        aria-label="Vídeo demonstrativo do projeto Gerenciador de Estoque"></video>
+                                </div>
+                                <span class="project-category">Projeto Acadêmico</span>
+                                <h3>Gerenciador de Estoque</h3>
+                                <p>SPA Angular 17+ com RBAC (admin, operador e consulta), route guards, CRUD completo de
+                                    produtos e funcionários, movimentação de estoque com histórico e onboarding
+                                    obrigatório na primeira autenticação.</p>
+                                <div class="card-tech">
+                                    <span class="tech-pill">Angular 17</span>
+                                    <span class="tech-pill">TypeScript</span>
+                                    <span class="tech-pill">Reactive Forms</span>
+                                    <span class="tech-pill">JSON Server</span>
+                                    <span class="tech-pill">RBAC</span>
+                                </div>
+                                <div class="card-buttons">
+                                    <a href="https://github.com/sthefanyematias/gerenciador-estoque" target="_blank"
+                                        class="btn-repo"
+                                        aria-label="Repositório do projeto Gerenciador de Estoque">Repositório</a>
+                                    <a href="https://gerenciador-estoque-e5ur.onrender.com/" target="_blank"
+                                        class="btn-deploy"
+                                        aria-label="Deploy do projeto Gerenciador de Estoque">Deploy</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="preview">
+                                    <video src="assets/other/video-elopet.mp4" id="videoElopet" autoplay muted loop
+                                        playsinline class="video-preview"
+                                        aria-label="Vídeo demonstrativo do projeto Elopet"></video>
+                                </div>
+                                <span class="project-category">Projeto Acadêmico</span>
+                                <h3>Elopet</h3>
+                                <p>Plataforma de adoção animal com vitrine pública, filtros dinâmicos e registro de
+                                    interesse. Painel admin com AuthGuard, Reactive Forms e upload via Multer. Deploy no
+                                    Render via Docker com build Angular unificado ao servidor Node.</p>
+                                <div class="card-tech">
+                                    <span class="tech-pill">Angular 19</span>
+                                    <span class="tech-pill">TypeScript</span>
+                                    <span class="tech-pill">Node.js</span>
+                                    <span class="tech-pill">Multer</span>
+                                    <span class="tech-pill">Docker</span>
+                                </div>
+                                <div class="card-buttons">
+                                    <a href="https://github.com/sthefanyematias/elopet" target="_blank" class="btn-repo"
+                                        aria-label="Repositório do projeto Elopet">Repositório</a>
+                                    <a href="https://elopet.onrender.com" target="_blank" class="btn-deploy"
+                                        aria-label="Deploy do projeto Elopet">Deploy</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="preview">
+                                    <video src="assets/other/video-confeitaria.mp4" id="videoConfeitaria" autoplay muted
+                                        loop playsinline class="video-preview"
+                                        aria-label="Vídeo demonstrativo do projeto Confeitaria Adriana Novais"></video>
+                                </div>
+                                <span class="project-category">Projeto Acadêmico</span>
+                                <h3>Confeitaria Adriana Novais</h3>
+                                <p>Full-stack em produção: API Spring Boot 3 com JWT e Docker multi-stage no Render,
+                                    banco MySQL na Clever Cloud e SPA Angular 21 com route guards. Pedidos integrados ao
+                                    WhatsApp com persistência em banco.</p>
+                                <div class="card-tech">
+                                    <span class="tech-pill">Java</span>
+                                    <span class="tech-pill">Spring Boot 3</span>
+                                    <span class="tech-pill">Angular 21</span>
+                                    <span class="tech-pill">JWT</span>
+                                    <span class="tech-pill">Docker</span>
+                                    <span class="tech-pill">MySQL</span>
+                                </div>
+                                <div class="card-buttons">
+                                    <a href="https://github.com/sthefanyematias/confeitaria-adriana-novais"
+                                        target="_blank" class="btn-repo"
+                                        aria-label="Repositório do projeto Confeitaria Adriana Novais">Repositório</a>
+                                    <a href="https://confeitaria-vitrine.onrender.com" target="_blank"
+                                        class="btn-deploy"
+                                        aria-label="Deploy do projeto Confeitaria Adriana Novais">Deploy</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn carousel-next" aria-label="Próximo projeto">&#8594;</button>
+                </div>
+
+                <div class="carousel-dots" role="tablist" aria-label="Indicadores do carrossel">
+                    <button class="carousel-dot active" role="tab" aria-label="Projeto 1"></button>
+                    <button class="carousel-dot" role="tab" aria-label="Projeto 2"></button>
+                    <button class="carousel-dot" role="tab" aria-label="Projeto 3"></button>
+                    <button class="carousel-dot" role="tab" aria-label="Projeto 4"></button>
+                </div>
+            </div>
+
+        </section>
+    </main><br><br><br><br><br><br><br><br>
+
+    <div class="section-divider" id="contact" aria-hidden="true"></div>
+
+    <main>
+        <section class="reveal">
+            <div class="container">
+                <h2>Vamos conversar?</h2>
+                <div class="contact-grid">
+                    <!-- <a href="https://linkedin.com/in/sthefanyematias/" target="_blank" class="contact-card"
+                        aria-label="Acessar meu LinkedIn">
+                        <div class="contact-info">
+                            <span>LinkedIn</span>
+                            <p>Conecte-se comigo</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a> -->
+
+                    <a href="https://github.com/sthefanyematias" target="_blank" class="contact-card"
+                        aria-label="Acessar meu GitHub">
+                        <div class="contact-info">
+                            <span>GitHub</span>
+                            <p>Veja meus códigos</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a>
+
+                    <a href="https://wa.me/5511988440378" target="_blank" class="contact-card"
+                        aria-label="Enviar mensagem via WhatsApp">
+                        <div class="contact-info">
+                            <span>WhatsApp</span>
+                            <p>Envie uma mensagem</p>
+                        </div>
+                        <div class="contact-arrow" aria-hidden="true">↗</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-card">
+            <div class="footer-bio">
+                <img src="assets/other/foto.png" alt="Foto de Sthefany" class="footer-avatar">
+                <div class="footer-text">
+                    <h3>Sthefany Evangelista Matias</h3>
+                    <p>São Paulo - SP, Brasil</p>
+                    <small>Técnica em Informática • Estudante de ADS</small>
+                </div>
+            </div>
+
+            <div class="footer-separator" aria-hidden="true"></div>
+
+            <div class="footer-skills">
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">TypeScript</span>
+                <span class="skill-pill">Java</span>
+                <span class="skill-pill">Spring Boot</span>
+                <span class="skill-pill">Angular</span>
+                <span class="skill-pill">Node.js</span>
+                <span class="skill-pill">Docker</span>
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">MongoDB</span>
+                <span class="skill-pill">Git</span>
+            </div>
+        </div>
+
+        <p class="copyright">© <span id="year"></span> • Desenvolvido por Sthefany Evangelista Matias</p>
+    </footer>
+
+    <div class="nav-shortcuts" role="group" aria-label="Atalhos de navegação">
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="nav-btn"
+            aria-label="Voltar ao topo da página">
+            <span class="nav-text" aria-hidden="true">TOPO</span>
+            <span class="nav-arrow" aria-hidden="true">↑</span>
+        </button>
+
+        <button onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})" class="nav-btn"
+            aria-label="Ir para o final da página">
+            <span class="nav-text" aria-hidden="true">FIM</span>
+            <span class="nav-arrow" aria-hidden="true">↓</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
