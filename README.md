@@ -1,42 +1,40 @@
-# Portfólio | Sthefany Evangelista Matias
 
-Este repositório contém o código-fonte do meu portfólio pessoal. Projetado com uma estética moderna e foco em performance, este espaço serve como uma vitrine viva da minha evolução técnica, centralizando os meus projetos, competências e trajetória no desenvolvimento de software.
+# Portfólio - Sthefany Evangelista Matias
 
-### Sobre Mim
-Sou uma entusiasta de tecnologia, focada em transformar ideias em soluções práticas e eficientes. Com um sólido embasamento técnico e uma mentalidade de aprendizagem contínua, procuro desafios que envolvam lógica de programação, arquitetura de sistemas e design centrado no utilizador.
+Repositório do código-fonte do portfólio pessoal, desenvolvido do zero com HTML, CSS e JavaScript puros. O projeto centraliza os trabalhos desenvolvidos ao longo da minha trajetória técnica, com foco em clareza de apresentação, performance e boas práticas de desenvolvimento frontend.
 
-* 🎓 **Formação:** Análise e Desenvolvimento de Sistemas (Centro Univ. Senac) & Técnica em Informática (Senac Lapa Tito).
-* 📍 **Localização:** São Paulo, Brasil.
-* 🛠️ **Foco Técnico:** Java, Angular, Ecossistema JavaScript (Node.js) e Bases de Dados.
+<br>
 
-### Diferenciais do Projeto
-O portfólio foi construído utilizando conceitos avançados de UI/UX para refletir um perfil tecnológico e profissional:
-* **Glassmorphism:** Interface translúcida com efeitos de desfoque de fundo (backdrop-filter).
-* **Responsive Design:** Experiência de navegação otimizada para mobile, tablet e desktop.
-* **Dark/Light Mode:** Alternância dinâmica de temas com persistência de preferência.
-* **Acessibilidade:** Uso de semântica HTML5 e boas práticas para leitores de ecrã.
+## Visão Geral do Projeto
 
-### Estrutura de Pastas
-* `/assets`: Recursos visuais, ícones e vídeos demonstrativos dos projetos.
-* `index.html`: Estrutura base e semântica do site.
-* `style.css`: Estilização avançada, animações e gestão de temas.
-* `script.js`: Lógica de busca, manipulação do DOM e interatividade.
+O portfólio foi construído sem frameworks ou bibliotecas externas. Toda a lógica de interatividade, manipulação de DOM, sistema de busca e alternância de temas foi implementada em Vanilla JavaScript, priorizando leveza e controle sobre o comportamento da aplicação.
 
-### Desafios e Aprendizados
-Durante o desenvolvimento deste portfólio, o maior desafio foi a implementação do sistema de busca em tempo real conciliado com a performance das animações. 
-- **Solução:** Utilizei técnicas de manipulação de DOM eficiente e variáveis CSS para garantir que a troca de temas (Light/Dark) fosse fluida.
-- **Aprendizado:** Reforcei conhecimentos sobre acessibilidade (WCAG) e a importância de um código semântico para SEO.
+<br>
 
-### Performance e Qualidade Técnica (Lighthouse)
+## Funcionalidades
 
-O projeto foi auditado utilizando a ferramenta **Google Lighthouse**, alcançando pontuações de excelência em todos os critérios, o que garante uma navegação fluida, rápida e acessível.
+- **Dark/Light Mode** — alternância dinâmica de temas com persistência via `localStorage`
+- **Sistema de Busca** — busca em tempo real por seções e projetos com sugestões dinâmicas
+- **Glassmorphism** — interface com efeitos de desfoque (`backdrop-filter`) e camadas translúcidas
+- **Responsive Design** — layout adaptado para mobile, tablet e desktop
+- **Menu Mobile** — navegação com controle de acessibilidade via `aria-expanded` e `aria-label`
+- **Acessibilidade** — semântica HTML5 e práticas compatíveis com leitores de tela
 
-- **Desempenho:** 99/100
-- **Acessibilidade:** 95/100
-- **Práticas Recomendadas:** 100/100
-- **SEO:** 91/100
+<br>
 
-> *Valores obtidos em ambiente de produção (GitHub Pages).*
+## Decisões Técnicas
 
----
-Desenvolvido por **Sthefany Evangelista Matias**
+A implementação do sistema de busca em tempo real exigiu atenção especial à performance. A solução adotada combina filtragem sobre estrutura de dados estática com manipulação eficiente do DOM, evitando reflows desnecessários. A gestão de temas foi centralizada em variáveis CSS, garantindo que a alternância Light/Dark seja aplicada de forma consistente sem duplicação de regras de estilo.
+
+<br>
+
+## Qualidade Técnica
+
+| Critério | Pontuação |
+|---|---|
+| Performance | 100/100 |
+| Acessibilidade | 95/100 |
+| Práticas Recomendadas | 100/100 |
+| SEO | 100/100 |
+
+> Auditoria realizada via Google Lighthouse em ambiente local.
